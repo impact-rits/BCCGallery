@@ -1,0 +1,128 @@
+body {
+  background-color: whitesmoke;
+  padding: 0;
+  margin: 0;
+}
+
+body p,
+body a,
+body li,
+body div,
+body span {
+  padding: 0;
+  margin: 0;
+}
+
+#top .topnav {
+  background-color: white;
+}
+
+#top .topnav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+  margin: 20px;
+}
+
+#top .topnav ul li {
+  float: left;
+  height: 60px;
+}
+
+#top .topnav ul li .logo {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  margin-right: 20px;
+  position: relative;
+}
+
+#top .topnav ul li .logo img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#top .topnav ul li .one {
+  display: inline-block;
+  background-color: #FFAE00;
+  height: 60px;
+  width: 150px;
+  border-radius: 30px 0px 0px 30px;
+  position: relative;
+}
+
+#top .topnav ul li .one p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  padding-left: 20px;
+  top: 50%;
+  left: 45%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#top .topnav ul li .two {
+  display: inline-block;
+  background-color: #FF4390;
+  height: 60px;
+  width: 140px;
+  position: relative;
+}
+
+#top .topnav ul li .two p {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#top .topnav ul li .three {
+  display: inline-block;
+  background-color: #FF4390;
+  height: 60px;
+  width: 150px;
+  border-radius: 0px 30px 30px 0px;
+  position: relative;
+}
+
+#top .topnav ul li .three p {
+  width: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#top2 .one {
+  position: relative;
+}
+
+#top2 .one p {
+  width: 100%;
+  font-size: 100px;
+  font-family: "Sawarabi Mincho";
+  color: #3840B1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+/*# sourceMappingURL=style.css.map */
