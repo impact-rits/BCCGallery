@@ -1,7 +1,9 @@
+@charset "UTF-8";
 body {
   background-color: whitesmoke;
-  padding: 0;
-  margin: 0;
+  font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", sans-serif;
+  padding: 0vw;
+  margin: 0vw;
 }
 
 body p,
@@ -9,8 +11,8 @@ body a,
 body li,
 body div,
 body span {
-  padding: 0;
-  margin: 0;
+  padding: 0vw;
+  margin: 0vw;
 }
 
 #top .topnav {
@@ -113,6 +115,7 @@ body span {
 #top2 .one {
   position: relative;
   text-align: center;
+  background-color: #FF61AA;
 }
 
 #top2 .one p {

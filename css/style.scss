@@ -1,16 +1,16 @@
 body {
         background-color: whitesmoke;
-        padding: 0;
-        margin: 0;
+        font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", sans-serif;
+        padding: 0vw;
+        margin: 0vw;
 
         p,
         a,
         li,
         div,
-        span,
-                {
-                padding: 0;
-                margin: 0;
+        span {
+                padding: 0vw;
+                margin: 0vw;
         }
 }
 
@@ -120,7 +120,7 @@ body {
         .one {
                 position: relative;
                 text-align: center;
-
+                background-color: #FF61AA;
 
                 p {
                         width: 85%;
@@ -180,7 +180,7 @@ body {
 
                 .category {
                         background-color: white;
-              
+
                 }
         }
 }
