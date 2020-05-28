@@ -164,4 +164,8 @@ body span {
 #info .applications .one .two p span {
   font-size: 50%;
 }
+
+#info .applications .category {
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */
