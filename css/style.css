@@ -112,17 +112,56 @@ body span {
 
 #top2 .one {
   position: relative;
+  text-align: center;
 }
 
 #top2 .one p {
-  width: 100%;
-  font-size: 100px;
+  width: 85%;
+  font-size: 7vw;
   font-family: "Sawarabi Mincho";
   color: #3840B1;
+  text-align: left;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#info .applications .one {
+  background-color: #FF61AA;
+  padding: 5vw;
+}
+
+#info .applications .one .two {
+  background-color: white;
+  border-radius: 4vw;
+}
+
+#info .applications .one .two h1 {
+  padding: 10px;
+  font-size: 100px;
+  margin: 0;
+  text-align: center;
+  color: #505CFF;
+}
+
+#info .applications .one .two h1 span {
+  font-size: 40px;
+}
+
+#info .applications .one .two p {
+  font-size: 30vw;
+  font-family: "Hiragino Mincho Pro";
+  font-weight: bold;
+  color: #FF61AA;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.0;
+}
+
+#info .applications .one .two p span {
+  font-size: 50%;
 }
 /*# sourceMappingURL=style.css.map */
