@@ -69,12 +69,28 @@ body .box1 .category-icon {
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
-#main {
-  padding: 20px;
-}
-
 #main .gallery-image {
   margin: auto 0;
+}
+
+#main .box1 {
+  padding: 0px;
+  margin: 10px;
+}
+
+#main .box1 .card-body {
+  padding: 10px;
+}
+
+#main .box1 .container-fluid {
+  padding: 0px;
+}
+
+@media (min-width: 500px) {
+  #main .box1 {
+    margin: 20px;
+    padding: 20px;
+  }
 }
 
 #links h3,
