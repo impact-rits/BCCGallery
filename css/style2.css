@@ -25,6 +25,30 @@ body .card-title {
   color: cornflowerblue;
 }
 
+body .box1 {
+  background-color: white;
+  border-radius: 5vw;
+  margin: 20px;
+  padding: 20px;
+}
+
+body .box1 .category-icon {
+  width: 200px;
+  margin: 10px auto;
+}
+
+@media (min-width: 500px) {
+  body .box1 .category-icon {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 666px) {
+  body .box1 .category-icon {
+    width: 300px;
+  }
+}
+
 #top .one {
   position: relative;
   text-align: center;
@@ -53,28 +77,9 @@ body .card-title {
   margin: auto 0;
 }
 
-#main .box1 {
-  background-color: white;
-  border-radius: 5vw;
-  margin: 20px;
-  padding: 20px;
-}
-
-#main .box1 .category-icon {
-  width: 200px;
-  margin: 10px auto;
-}
-
-@media (min-width: 500px) {
-  #main .box1 .category-icon {
-    width: 40vw;
-  }
-}
-
-@media (min-width: 666px) {
-  #main .box1 .category-icon {
-    width: 300px;
-  }
+#links h3,
+#links h4 {
+  margin: 20px 0;
 }
 
 footer {
