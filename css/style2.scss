@@ -1,0 +1,170 @@
+body {
+        background-color: white;
+        letter-spacing: 0.15vw;
+
+
+
+        background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
+        background-size: 30px 30px;
+
+        margin: 0px;
+        padding: 0px;
+        font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", sans-serif;
+
+        h1 {
+                letter-spacing: 0px;
+                text-align: center;
+                color: rgb(0, 67, 212);
+                font-size: 4.5vw;
+        }
+
+
+        h2 {
+                margin: 0px 4vw;
+                color: $mainColor;
+        }
+
+        h3 {
+                margin: 0px 4vw;
+                padding-top: 20px;
+                font-size: 20px;
+                color: $mainColor;
+                position: relative;
+                display: inline;
+
+                @media screen and (min-width:768px) and (max-width:1024px) {
+                        font-size: 2.2vw;
+                }
+
+                @media screen and (min-width:1024px) {
+                        font-size: 2vw;
+                }
+        }
+
+        h3:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -8px;
+                width: 100%;
+                height: 7px;
+                background: -webkit-repeating-linear-gradient(-45deg, $stripeColor1, $stripeColor1 2px, #fff 2px, #fff 4px);
+                background: repeating-linear-gradient(-45deg, $stripeColor1, $stripeColor1 2px, #fff 2px, #fff 4px);
+        }
+
+        h4 {
+                text-align: center;
+                font-size: 26px;
+                color: $subColor;
+                margin: 0px 0px;
+                margin-bottom: 20px;
+
+                @media screen and (min-width:768px) and (max-width:1024px) {
+
+                        /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+                        font-size: 3vw;
+                }
+
+                @media screen and (min-width:1024px) {
+                        /*　画面サイズが1024pxからはここを読み込む　*/
+                        font-size: 32px;
+                }
+        }
+
+        h5 {
+                margin: 0px 4vw;
+                padding-top: 20px;
+                font-size: 20px;
+                color: $subColor;
+        }
+
+        p {
+                margin: 10px 4vw;
+                padding: 10px 0px;
+                line-height: 1.8;
+                font-size: 16px;
+
+                @media screen and (min-width:768px) {
+
+                        /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+                        font-size: 18px;
+                }
+
+
+        }
+
+
+        .newLine-sp {
+                display: none !important;
+        }
+
+        .newLine-pc {
+                display: block !important;
+        }
+
+        @media only screen and (max-width: 750px) {
+
+                .newLine-sp {
+                        display: block !important;
+                }
+
+                .newLine-pc {
+                        display: none !important;
+                }
+        }
+
+
+        .img {
+                // vertical-align: middle;
+                line-height: 1.0em;
+                display: block;
+        }
+
+
+
+        background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
+        background-size: 30px 30px;
+
+
+
+}
+
+#top {
+        .one {
+                position: relative;
+                text-align: center;
+                background-color: whitesmoke;
+                display: block;
+
+                p {
+                        width: 85%;
+                        font-size: 7vw;
+                        font-family: "Sawarabi Mincho" !important;
+                        color: #3840B1;
+                        text-align: left;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translateY(-50%) translateX(-50%);
+                        -webkit-transform: translateY(-50%) translateX(-50%);
+                }
+        }
+
+
+
+}
+
+#main {
+        padding: 20px;
+
+        .gallery-image {
+                margin: auto 0;
+        }
+
+        .box1 {
+                background-color: white;
+                border-radius: 5vw;
+                margin: 30px;
+                padding: 20px;
+        }
+}

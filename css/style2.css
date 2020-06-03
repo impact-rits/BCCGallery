@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  letter-spacing: 0.15vw;
+  background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
+  background-size: 30px 30px;
+}
+
+body .title1 {
+  font-weight: bold;
+  color: #ff0080;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(30%, #fffb00));
+  background: linear-gradient(transparent 50%, #fffb00 30%);
+  margin-bottom: 20px;
+  font-size: 10vw;
+  display: inline-block;
+}
+
+@media (min-width: 500px) {
+  body .title1 {
+    font-size: 50px;
+  }
+}
+
+#top .one {
+  position: relative;
+  text-align: center;
+  background-color: whitesmoke;
+  display: block;
+}
+
+#top .one p {
+  width: 85%;
+  font-size: 7vw;
+  font-family: "Sawarabi Mincho" !important;
+  color: #3840B1;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#main {
+  padding: 20px;
+}
+
+#main .gallery-image {
+  margin: auto 0;
+}
+
+#main .box1 {
+  background-color: white;
+  border-radius: 5vw;
+  margin: 30px;
+  padding: 20px;
+}
+/*# sourceMappingURL=style2.css.map */
