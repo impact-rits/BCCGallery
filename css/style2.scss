@@ -1,135 +1,30 @@
 body {
         background-color: white;
-        letter-spacing: 0.15vw;
 
-
-
-        background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
-        background-size: 30px 30px;
-
-        margin: 0px;
-        padding: 0px;
-        font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", sans-serif;
-
-        h1 {
-                letter-spacing: 0px;
-                text-align: center;
-                color: rgb(0, 67, 212);
-                font-size: 4.5vw;
-        }
-
-
-        h2 {
-                margin: 0px 4vw;
-                color: $mainColor;
-        }
-
-        h3 {
-                margin: 0px 4vw;
-                padding-top: 20px;
-                font-size: 20px;
-                color: $mainColor;
-                position: relative;
-                display: inline;
-
-                @media screen and (min-width:768px) and (max-width:1024px) {
-                        font-size: 2.2vw;
-                }
-
-                @media screen and (min-width:1024px) {
-                        font-size: 2vw;
-                }
-        }
-
-        h3:after {
-                content: "";
-                position: absolute;
-                left: 0;
-                bottom: -8px;
-                width: 100%;
-                height: 7px;
-                background: -webkit-repeating-linear-gradient(-45deg, $stripeColor1, $stripeColor1 2px, #fff 2px, #fff 4px);
-                background: repeating-linear-gradient(-45deg, $stripeColor1, $stripeColor1 2px, #fff 2px, #fff 4px);
-        }
-
-        h4 {
-                text-align: center;
-                font-size: 26px;
-                color: $subColor;
-                margin: 0px 0px;
+        .title1 {
+                font-weight: bold;
+                color: rgb(255, 0, 128);
+                background: linear-gradient(transparent 50%, rgb(255, 251, 0) 30%);
                 margin-bottom: 20px;
+                font-size: 10vw;
+                display: inline-block;
 
-                @media screen and (min-width:768px) and (max-width:1024px) {
 
-                        /*　画面サイズが768pxから1024pxまではここを読み込む　*/
-                        font-size: 3vw;
-                }
+                @media (min-width: 500px) {
 
-                @media screen and (min-width:1024px) {
-                        /*　画面サイズが1024pxからはここを読み込む　*/
-                        font-size: 32px;
+                        font-size: 50px;
                 }
         }
-
-        h5 {
-                margin: 0px 4vw;
-                padding-top: 20px;
-                font-size: 20px;
-                color: $subColor;
-        }
-
-        p {
-                margin: 10px 4vw;
-                padding: 10px 0px;
-                line-height: 1.8;
-                font-size: 16px;
-
-                @media screen and (min-width:768px) {
-
-                        /*　画面サイズが768pxから1024pxまではここを読み込む　*/
-                        font-size: 18px;
-                }
-
-
-        }
-
-
-        .newLine-sp {
-                display: none !important;
-        }
-
-        .newLine-pc {
-                display: block !important;
-        }
-
-        @media only screen and (max-width: 750px) {
-
-                .newLine-sp {
-                        display: block !important;
-                }
-
-                .newLine-pc {
-                        display: none !important;
-                }
-        }
-
-
-        .img {
-                // vertical-align: middle;
-                line-height: 1.0em;
-                display: block;
-        }
-
 
 
         background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
         background-size: 30px 30px;
-
-
 
 }
 
 #top {
+
+
         .one {
                 position: relative;
                 text-align: center;
@@ -139,7 +34,7 @@ body {
                 p {
                         width: 85%;
                         font-size: 7vw;
-                        font-family: "Sawarabi Mincho" !important;
+                        font-family: "Sawarabi Mincho";
                         color: #3840B1;
                         text-align: left;
                         position: absolute;
@@ -149,9 +44,6 @@ body {
                         -webkit-transform: translateY(-50%) translateX(-50%);
                 }
         }
-
-
-
 }
 
 #main {
@@ -164,7 +56,123 @@ body {
         .box1 {
                 background-color: white;
                 border-radius: 5vw;
-                margin: 30px;
+                margin: 20px;
                 padding: 20px;
         }
+}
+
+footer {
+        background-color: white;
+        margin: 0px;
+
+        p {
+                font-size: 14px;
+                margin: 3px;
+                font-weight: lighter;
+                text-align: center;
+                color: black;
+                border: solid 4px rgba(255, 255, 255, 0);
+        }
+
+        img {
+                padding-top: 40px;
+                padding-bottom: 20px;
+                width: 200px;
+
+                @media screen and (min-width:320px) and (max-width:768px) {
+                        width: 25vw;
+                }
+        }
+
+
+        .sns-share {
+                text-align: center;
+
+                display: flex;
+                justify-content: center;
+
+                .item {
+                        margin: 1px;
+                }
+
+                .facebook {
+                        background-color: #2e4a88;
+                        box-shadow: 0 4px 0 #1B3D82;
+                        text-shadow: 0 -1px -1px #1B3D82;
+
+                        display: inline;
+                        position: relative;
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        text-decoration: none;
+                        color: white;
+                        border-radius: 5px;
+                        padding: 14px 20px;
+                }
+
+                .facebook:hover {
+                        background-color: #354F84;
+                }
+
+                .facebook:active {
+                        top: 2px;
+                        box-shadow: 0 2px 0 #1B3D82;
+                }
+
+                .twitter {
+                        background-color: #008DDE;
+                        box-shadow: 0 4px 0 #0078BD;
+
+                        display: inline;
+                        position: relative;
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        text-decoration: none;
+                        color: white;
+                        border-radius: 5px;
+                        padding: 14px 20px;
+                }
+
+                .twitter:active {
+                        top: 2px;
+                        box-shadow: 0 2px 0 #0078BD;
+                }
+
+                .twitter:hover {
+                        background-color: #1397D8;
+                }
+
+                .instagram {
+                        background-color: rgb(224, 19, 146);
+                        box-shadow: 0 4px 0 rgb(155, 14, 101);
+
+
+                        display: inline;
+                        position: relative;
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        text-decoration: none;
+                        color: white;
+                        border-radius: 5px;
+                        padding: 14px 20px;
+                }
+
+                .instagram:active {
+                        top: 2px;
+                        box-shadow: 0 2px 0 rgb(255, 65, 239);
+                }
+
+                .instagram:hover {
+                        background-color: rgb(221, 57, 180);
+                        ;
+                }
+        }
+
+
 }

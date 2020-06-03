@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  letter-spacing: 0.15vw;
   background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
   background-size: 30px 30px;
 }
@@ -31,7 +30,7 @@ body .title1 {
 #top .one p {
   width: 85%;
   font-size: 7vw;
-  font-family: "Sawarabi Mincho" !important;
+  font-family: "Sawarabi Mincho";
   color: #3840B1;
   text-align: left;
   position: absolute;
@@ -52,7 +51,126 @@ body .title1 {
 #main .box1 {
   background-color: white;
   border-radius: 5vw;
-  margin: 30px;
+  margin: 20px;
   padding: 20px;
+}
+
+footer {
+  background-color: white;
+  margin: 0px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 3px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+  border: solid 4px rgba(255, 255, 255, 0);
+}
+
+footer img {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 200px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  footer img {
+    width: 25vw;
+  }
+}
+
+footer .sns-share {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .sns-share .item {
+  margin: 1px;
+}
+
+footer .sns-share .facebook {
+  background-color: #2e4a88;
+  -webkit-box-shadow: 0 4px 0 #1B3D82;
+          box-shadow: 0 4px 0 #1B3D82;
+  text-shadow: 0 -1px -1px #1B3D82;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 20px;
+}
+
+footer .sns-share .facebook:hover {
+  background-color: #354F84;
+}
+
+footer .sns-share .facebook:active {
+  top: 2px;
+  -webkit-box-shadow: 0 2px 0 #1B3D82;
+          box-shadow: 0 2px 0 #1B3D82;
+}
+
+footer .sns-share .twitter {
+  background-color: #008DDE;
+  -webkit-box-shadow: 0 4px 0 #0078BD;
+          box-shadow: 0 4px 0 #0078BD;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 20px;
+}
+
+footer .sns-share .twitter:active {
+  top: 2px;
+  -webkit-box-shadow: 0 2px 0 #0078BD;
+          box-shadow: 0 2px 0 #0078BD;
+}
+
+footer .sns-share .twitter:hover {
+  background-color: #1397D8;
+}
+
+footer .sns-share .instagram {
+  background-color: #e01392;
+  -webkit-box-shadow: 0 4px 0 #9b0e65;
+          box-shadow: 0 4px 0 #9b0e65;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 20px;
+}
+
+footer .sns-share .instagram:active {
+  top: 2px;
+  -webkit-box-shadow: 0 2px 0 #ff41ef;
+          box-shadow: 0 2px 0 #ff41ef;
+}
+
+footer .sns-share .instagram:hover {
+  background-color: #dd39b4;
 }
 /*# sourceMappingURL=style2.css.map */
