@@ -20,6 +20,11 @@ body .title1 {
   }
 }
 
+body .card-title {
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
 #top .one {
   position: relative;
   text-align: center;
@@ -53,6 +58,23 @@ body .title1 {
   border-radius: 5vw;
   margin: 20px;
   padding: 20px;
+}
+
+#main .box1 .category-icon {
+  width: 200px;
+  margin: 10px auto;
+}
+
+@media (min-width: 500px) {
+  #main .box1 .category-icon {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 666px) {
+  #main .box1 .category-icon {
+    width: 300px;
+  }
 }
 
 footer {
