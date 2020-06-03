@@ -76,6 +76,11 @@ body .box1 .category-icon {
 #main .box1 {
   padding: 0px;
   margin: 10px;
+  text-decoration: none;
+}
+
+#main .box1 a:hover {
+  text-decoration: none;
 }
 
 #main .box1 .card-body {

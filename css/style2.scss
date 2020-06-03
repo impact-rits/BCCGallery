@@ -81,6 +81,11 @@ body {
         .box1 {
                 padding: 0px;
                 margin: 10px;
+                text-decoration: none;
+
+                a:hover {
+                        text-decoration: none;
+                }
 
                 .card-body {
                         padding: 10px;
