@@ -1,23 +1,171 @@
+@charset "UTF-8";
 body {
   background-color: white;
-  background-image: linear-gradient(-45deg, white 25%, rgba(120, 180, 255, 0.15) 25%, rgba(120, 180, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(120, 180, 255, 0.15));
+  background-image: linear-gradient(-45deg, white 25%, rgba(75, 156, 255, 0.15) 25%, rgba(75, 156, 255, 0.15) 50%, white 50%, white 75%, rgba(120, 180, 255, 0.15) 75%, rgba(61, 148, 253, 0.15));
   background-size: 30px 30px;
 }
 
-body .title1 {
-  font-weight: bold;
-  color: #ff0080;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(30%, #fffb00));
-  background: linear-gradient(transparent 50%, #fffb00 30%);
-  margin-bottom: 20px;
-  font-size: 10vw;
-  display: inline-block;
+body h1 {
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0043d4;
+  font-size: 4.5vw;
 }
 
-@media (min-width: 500px) {
-  body .title1 {
-    font-size: 50px;
+body h2 {
+  margin: 0px 4vw;
+  color: #286da7;
+}
+
+body h3 {
+  margin: 0px 4vw;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #286da7;
+  position: relative;
+  display: inline;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body h3 {
+    font-size: 2.2vw;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  body h3 {
+    font-size: 2vw;
+  }
+}
+
+body h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 7px;
+  background: -webkit-repeating-linear-gradient(-45deg, #2c6fffa8, #2c6fffa8 2px, #fff 2px, #fff 4px);
+  background: repeating-linear-gradient(-45deg, #2c6fffa8, #2c6fffa8 2px, #fff 2px, #fff 4px);
+}
+
+body h4 {
+  text-align: center;
+  font-size: 26px;
+  color: #2ab4ff;
+  margin: 0px 0px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body h4 {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body h4 {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+    font-size: 32px;
+  }
+}
+
+body p {
+  margin: 10px 4vw;
+  padding: 10px 0px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  body p {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+    font-size: 18px;
+  }
+}
+
+body .image {
+  text-align: center;
+}
+
+body .image01 img {
+  width: 100%;
+}
+
+body .image01 .pc {
+  display: block !important;
+}
+
+body .image01 .sp {
+  display: none !important;
+}
+
+@media only screen and (max-width: 750px) {
+  body .image01 .pc {
+    display: none !important;
+  }
+  body .image01 .sp {
+    display: block !important;
+  }
+}
+
+body .image02 {
+  text-align: center;
+  margin: 0px;
+}
+
+body .image02 img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body .image02 img {
+    width: 70%;
+  }
+}
+
+body .newLine-sp {
+  display: none !important;
+}
+
+body .newLine-pc {
+  display: block !important;
+}
+
+@media only screen and (max-width: 750px) {
+  body .newLine-sp {
+    display: block !important;
+  }
+  body .newLine-pc {
+    display: none !important;
+  }
+}
+
+body .youtube-box {
+  width: 95%;
+  margin: 20px auto;
+}
+
+@media only screen and (min-width: 500px) {
+  body .youtube-box {
+    width: 70%;
+  }
+}
+
+body .youtube-box .youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+body .youtube-box .youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 body .card-title {
@@ -35,6 +183,7 @@ body .box1 {
 body .box1 .category-icon {
   width: 200px;
   margin: 10px auto;
+  margin-top: 20px;
 }
 
 @media (min-width: 500px) {
