@@ -134,6 +134,15 @@ body .newLine-pc {
   display: block !important;
 }
 
+body .highlight-Bold1 {
+  font-weight: bold;
+  color: #db55ac;
+}
+
+body .highlight-Bold2 {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 750px) {
   body .newLine-sp {
     display: block !important;
