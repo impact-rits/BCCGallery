@@ -194,7 +194,8 @@ document.querySelector(".btn-group > .prev").onclick = function () {
                 page = pageCount;
         }
         console.log(page);
-        changePage(page-1);
+        changePage(page - 1);
+        window.location.href = '#main';
 };
 
 document.querySelector(".btn-group > .next").onclick = function () {
@@ -203,7 +204,8 @@ document.querySelector(".btn-group > .next").onclick = function () {
                 page = 1;
         }
         console.log(page);
-        changePage(page-1);
+        changePage(page - 1);
+        window.location.href = '#main';
 };
 initialize();
-changePage(page-1);
+changePage(page - 1);
