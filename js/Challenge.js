@@ -216,6 +216,7 @@ function initialize() {
                 if (i < cardDataList.length) {
                         // cardImageElement.src = cardDataList[i].image;
                         cardImageElement.src = cardDataList[i].like + "media/?size=l";
+                        cardImageElement.decoding = "async";
                         cardTitleElement.innerText = cardDataList[i].title;
                         cardTextElement.innerText = cardDataList[i].body;
                         likeButtonElement.href = cardDataList[i].image;
